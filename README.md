@@ -1,6 +1,8 @@
 # 🚀 Roadmap Fullstack Development (Dari 0 ke Expert)
 
-💡 **Pendekatan:** Fokus backend dulu, lalu lanjut ke frontend, dan akhirnya membangun proyek fullstack yang siap produksi.
+## 💡 Pendekatan: Fokus backend dulu, lalu lanjut ke frontend, dan akhirnya membangun proyek fullstack yang siap produksi.
+
+---
 
 ## 📅 Fase 1: Backend Mastery (Minggu 1-4)
 🎯 **Tujuan:** Bisa membangun backend yang aman, scalable, dan performa tinggi.
@@ -18,8 +20,6 @@
 
 🎯 **Output:** Backend dengan REST API dasar
 
----
-
 ### ✅ Minggu 2: Database & Authentication
 📌 **Materi:**
 - Database (MongoDB + Mongoose / PostgreSQL + Prisma)
@@ -33,8 +33,6 @@
 
 🎯 **Output:** Sistem login aman & terhubung ke database
 
----
-
 ### ✅ Minggu 3: Middleware, Security & Optimization
 📌 **Materi:**
 - Role-Based Access Control (RBAC)
@@ -47,8 +45,6 @@
 - Implementasi caching dengan Redis
 
 🎯 **Output:** Backend lebih aman & optimal
-
----
 
 ### ✅ Minggu 4: Deployment & Scalability
 📌 **Materi:**
@@ -77,8 +73,6 @@
 
 🎯 **Output:** UI login & register dengan React
 
----
-
 ### ✅ Minggu 6: State Management & UI Frameworks
 📌 **Materi:**
 - React Context API vs Redux
@@ -90,8 +84,6 @@
 
 🎯 **Output:** Dashboard user dengan data real dari API
 
----
-
 ### ✅ Minggu 7: Advanced React & Optimasi
 📌 **Materi:**
 - Next.js (SSR, ISR, Static Generation)
@@ -102,8 +94,6 @@
 - Buat fitur admin dashboard dengan React
 
 🎯 **Output:** UI lebih cepat dan efisien
-
----
 
 ### ✅ Minggu 8: Frontend Deployment & Testing
 📌 **Materi:**
@@ -132,8 +122,6 @@
 
 🎯 **Output:** Aplikasi fullstack pertama
 
----
-
 ### ✅ Minggu 11-12: Optimasi & Real Project
 📌 **Materi:**
 - Optimasi performa backend & frontend
@@ -147,7 +135,60 @@
 
 ---
 
-## 🚀 Hasil Akhir Roadmap
-✅ **Backend expert** → Bisa bikin API yang aman, cepat, dan scalable
-✅ **Frontend pro** → Bisa bikin UI modern dan teroptimasi
-✅ **Fullstack developer** → Bisa bikin aplikasi dari 0 sampai production
+# 🔍 **Strategi Mencari Informasi untuk Belajar Fullstack Development**
+
+### 1️⃣ **Gunakan Google dengan Query yang Efektif**
+💡 **Contoh Query yang Baik:**
+- `how to hash password in node.js with bcrypt`
+- `jwt authentication node.js express step by step`
+- `best practices for REST API security`
+
+### 2️⃣ **Gunakan Dokumentasi Resmi**
+📚 **Referensi Penting:**
+- [Node.js](https://nodejs.org/en/docs/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB (Mongoose)](https://mongoosejs.com/docs/)
+- [JWT (jsonwebtoken)](https://jwt.io/introduction/)
+- [React.js](https://react.dev/)
+- [Next.js](https://nextjs.org/docs)
+- [Prisma (untuk PostgreSQL)](https://www.prisma.io/docs/)
+
+### 3️⃣ **Gunakan Stack Overflow dengan Bijak**
+🔍 **Cara Mencari Jawaban:**
+- Gunakan Google dengan tambahan `site:stackoverflow.com`
+- Pilih jawaban dengan upvote tertinggi dan cek komentar
+
+### 4️⃣ **Gunakan YouTube untuk Visualisasi Konsep**
+📺 **Rekomendasi Channel:**
+- Traversy Media
+- The Net Ninja
+- Academind
+- Web Dev Simplified
+
+### 5️⃣ **Gunakan GitHub untuk Mempelajari Kode Orang Lain**
+📌 **Cari Repository:**
+- `fullstack project`
+- `node.js authentication boilerplate`
+- `react dashboard template`
+
+### 6️⃣ **Gunakan AI sebagai Asisten, Bukan Sebagai Tongkat!**
+✅ **Gunakan untuk:**
+- Memahami konsep yang sulit
+- Memperbaiki error & debugging
+
+❌ **Jangan gunakan untuk:**
+- Minta kode lengkap tanpa mencoba sendiri
+- Langsung copy-paste tanpa memahami
+
+---
+
+## 🚀 **Kesimpulan: Jadilah Developer yang Mandiri!**
+💡 **Formula Belajar yang Efektif:**
+✅ **1. Baca dokumentasi resmi**
+✅ **2. Cari referensi di Stack Overflow & GitHub**
+✅ **3. Tonton video jika butuh visualisasi**
+✅ **4. Coba kode & buat proyek sendiri**
+✅ **5. Gunakan AI hanya sebagai mentor, bukan sebagai crutch**
+
+Jika diterapkan dengan konsisten, kamu akan menjadi **Fullstack Developer Expert!** 🚀🔥
+
