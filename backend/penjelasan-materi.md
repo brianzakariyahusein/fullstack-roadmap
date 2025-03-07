@@ -1,74 +1,121 @@
-# **📘 Panduan Lengkap Belajar Backend Developer**
-
-## **💡 Apa yang Akan Kamu Pelajari?**
-Roadmap ini dirancang untuk membantumu menjadi **Backend Developer profesional** dari nol. Kamu akan mempelajari dasar-dasar hingga konsep lanjutan yang sering digunakan di industri.
+# **🖥️ Bab 1: Dasar-dasar Komputer & Jaringan**
 
 ---
 
-## **🚀 Keahlian yang Akan Kamu Kuasai**
+## **1.1 Cara Kerja Internet 🌍**
 
-### **1️⃣ Dasar-dasar Komputer & Jaringan**
-✅ Memahami cara kerja internet, HTTP/HTTPS, dan DNS.  
-✅ Mengerti konsep **Networking (TCP/IP, UDP, VPN, Firewall, dll.)**.  
-✅ Paham tentang **proses, threads, concurrency**, serta sistem operasi.  
+Internet adalah jaringan global yang menghubungkan miliaran perangkat di seluruh dunia. Internet memungkinkan kita untuk berkomunikasi antar komputer melalui protokol standar seperti **`TCP/IP`**, dan **`HTTP/HTTPS`**.
 
-### **2️⃣ Pemrograman Backend (JavaScript - Node.js)**
-✅ Menguasai **JavaScript modern** dan asynchronous programming.  
-✅ Menggunakan **Node.js** untuk membangun backend.  
-✅ Mengelola dependensi dengan **npm/yarn**.  
+### **🔹 Bagaimana Data Dikirim di Internet?**
 
-### **3️⃣ API Development**
-✅ Memahami dan membangun **REST API & GraphQL**.  
-✅ Menggunakan **Express.js** untuk backend API.  
-✅ Menggunakan **Swagger** untuk dokumentasi API.  
-
-### **4️⃣ Database & Data Management**
-✅ Menggunakan **SQL Databases (PostgreSQL, MySQL, MariaDB, dll.)**.  
-✅ Menggunakan **NoSQL Databases (MongoDB, Redis, Firebase, dll.)**.  
-✅ Memahami **ACID, Indexing, Query Optimization, Replication, Sharding**.  
-
-### **5️⃣ Authentication & Security**
-✅ Menerapkan **JWT, OAuth, Basic Auth, OpenID, SAML**.  
-✅ Mengamankan aplikasi dari serangan **XSS, SQL Injection, CSRF, dll.**  
-✅ Menerapkan **SSL/TLS & Hashing (bcrypt, SHA, scrypt)**.  
-
-### **6️⃣ Performance Optimization & Caching**
-✅ Menggunakan **Redis & Memcached** untuk caching.  
-✅ Memanfaatkan **CDN & Load Balancing**.  
-
-### **7️⃣ Software Architecture & Design Patterns**
-✅ Menerapkan **Monolithic, Microservices, SOA**.  
-✅ Menggunakan **Message Brokers (RabbitMQ, Kafka)**.  
-✅ Mengerti konsep **CQRS, Event Sourcing, DDD**.  
-
-### **8️⃣ Testing & CI/CD**
-✅ Menulis **Unit Test, Integration Test, dan Functional Test**.  
-✅ Menggunakan **Jest/Mocha** untuk testing backend.  
-✅ Menerapkan **CI/CD dengan GitHub Actions, Jenkins, GitLab CI/CD**.  
-
-### **9️⃣ Deployment & Scalability**
-✅ Menggunakan **Docker & Kubernetes**.  
-✅ Menerapkan **Load Balancing, Auto-scaling, dan Serverless Architecture**.  
-✅ Memahami **Observability & Monitoring (Logging, Tracing, Metrics, Telemetry)**.  
-
-### **🔟 Studi Kasus & Proyek Backend**
-✅ Membangun **Task Management API** dengan CRUD dan autentikasi.  
-✅ Mengembangkan **Real-time Chat App dengan WebSockets**.  
-✅ Membuat **E-Commerce API dengan Payment Gateway**.  
-✅ Melakukan **Fullstack Deployment dengan Docker/Kubernetes**.  
+1. **Client mengirim permintaan (Request)** ke server melalui **Protokol HTTP/HTTPS**.
+2. **Server menerima permintaan** dan memprosesnya.
+3. **Server mengirimkan respon** kembali ke Client dalam bentuk **halaman web, data JSON, DLL.**
+4. **Client menampilkan data** (Misalnya browser menampilkan website yang kita akses).
 
 ---
 
-## **🎯 Cara Menggunakan Panduan Ini**
-📌 **Pelajari setiap bagian secara bertahap.** Jangan buru-buru, pastikan kamu memahami setiap konsep sebelum lanjut ke materi berikutnya.  
-📌 **Praktik langsung.** Setelah membaca teori, segera coba implementasi kode dan buat proyek kecil.  
-📌 **Kerjakan tantangan dan proyek.** Ini akan membantu memperkuat pemahamanmu.  
-📌 **Gunakan referensi tambahan.** Baca dokumentasi resmi dari MDN, PostgreSQL, Docker, dll.  
+## **1.2 HTTP & HTTPS 📡**
+
+### **🔹 Apa itu HTTP?**
+
+HTTP **(HyperText Transfer Protocol)** adalah **Protokol Komunikasi** yang digunakan untuk bertukar informasi antara client (Browser) dan server.
+
+Contoh permintaan HTTP:
+**Request Body:**
+
+```js
+GET /home HTTP/1.1
+Host: www.example.com
+```
+
+Server akan merespons dengan data yang diminta oleh client.
+
+### **🔹 Perbedaan HTTP vs HTTPS**
+| HTTP | HTTPS |
+|------|------|
+| Tidak dienkripsi | Data dienkripsi dengan SSL/TLS |
+| Rentan terhadap serangan | Lebih aman dari peretas |
+| Digunakan di website lama | Standar wajib untuk website modern |
+
+🔹 **Kode Status HTTP**:
+✅ **200 OK** → Permintaan berhasil.  
+🚫 **404 Not Found** → Halaman tidak ditemukan.  
+⚠️ **500 Internal Server Error** → Server mengalami masalah.  
 
 ---
 
-## **🔥 Siap Menjadi Backend Developer Profesional?**
-Jika kamu menyelesaikan roadmap ini, kamu akan memiliki **keahlian yang siap digunakan di industri**. Terus belajar, praktik, dan bangun proyek nyata! 🚀💪  
+## **1.3 DNS & Hosting 🌐**
 
-📩 **Jika ada pertanyaan atau ingin berdiskusi, jangan ragu untuk bertanya!**
+🔹 **DNS (Domain Name System)** menerjemahkan **nama domain** menjadi **alamat IP**.  
+
+🔹 **Jenis Hosting**:
+1. **Shared Hosting** → Murah, digunakan bersama pengguna lain.
+2. **VPS (Virtual Private Server)** → Lebih fleksibel, tapi butuh konfigurasi.
+3. **Dedicated Hosting** → Mahal, tapi memiliki performa tinggi.
+4. **Cloud Hosting** → Dapat diskalakan secara otomatis.
+
+---
+
+## **1.4 Dasar Networking & Sistem Operasi 🔗**
+
+🔹 **IP Address**  
+- **IPv4:** `192.168.1.1` (Terbatas, 4 miliar alamat unik).  
+- **IPv6:** `2001:db8::ff00:42:8329` (Hampir tak terbatas).  
+
+🔹 **TCP vs UDP**
+| **TCP** (Transmission Control Protocol) | **UDP** (User Datagram Protocol) |
+|--------------------------------|----------------------------|
+| Stabil, memiliki error-checking | Lebih cepat, tanpa error-checking |
+| Digunakan untuk Web, Email, FTP | Digunakan untuk Streaming, VoIP, Gaming |
+
+🔹 **Keamanan Jaringan**
+- **Firewall** → Melindungi sistem dengan memblokir lalu lintas berbahaya.
+- **VPN (Virtual Private Network)** → Mengamankan komunikasi dengan enkripsi.
+
+🔹 **Proses, Threads, dan Concurrency**
+- **Proses (Process):** Program yang sedang berjalan di sistem operasi.
+- **Threads:** Unit eksekusi dalam suatu proses, memungkinkan eksekusi multitasking.
+- **Concurrency:** Kemampuan menjalankan beberapa tugas secara bersamaan untuk meningkatkan efisiensi sistem.
+
+🔹 **Manajemen Sistem Operasi**
+- **Manajemen Memori:** Mengalokasikan dan mengelola penggunaan RAM.
+- **Manajemen I/O:** Mengatur komunikasi antara hardware dan software.
+- **Interprocess Communication (IPC):** Cara komunikasi antara proses yang berjalan.
+
+---
+
+## **📝 Tugas Praktik**
+
+✅ **Cek alamat IP-mu**:  
+   - Buka **Command Prompt (Windows) / Terminal (Mac/Linux)** dan ketik:  
+     ```
+     ipconfig (Windows)
+     ifconfig atau ip a (Linux/Mac)
+     ```
+
+✅ **Cek DNS website**:  
+   - Buka terminal dan ketik:  
+     ```
+     nslookup google.com
+     ```
+   - Hasilnya menunjukkan IP dari server Google.
+
+✅ **Melihat daftar proses yang berjalan di sistem**:  
+   - **Windows**: Buka **Task Manager** (`Ctrl + Shift + Esc`) dan lihat tab **Processes**.
+   - **Linux/Mac**: Buka terminal dan ketik:  
+     ```
+     ps aux
+     top
+     htop
+     ```
+
+---
+
+## **🚀 Kesimpulan**
+
+Memahami dasar komputer dan jaringan sangat penting sebelum mempelajari backend development. Dengan menguasai konsep-konsep ini, kamu akan lebih siap untuk membangun sistem yang aman dan scalable!
+
+---
+📩 **Ada pertanyaan? Jangan ragu untuk bertanya!** 😊
 
