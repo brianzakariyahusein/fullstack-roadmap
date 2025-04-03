@@ -165,4 +165,4 @@ Menguasai keterampilan tingkat lanjut untuk siap di industri.
 
 ---
 
-🚀 **Selamat belajar! Jangan ragu untuk bertanya jika ada yang belum paham!**
+🚀 **Bagian Frontend masih nanti!**
